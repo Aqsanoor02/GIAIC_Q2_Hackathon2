@@ -19,7 +19,7 @@ const nextConfig = {
       domains: ["cdn.sanity.io"],
     },
     experimental: {
-      appDir: true, 
+      allowMiddlewareResponseBody: true, 
     },
   };
   
