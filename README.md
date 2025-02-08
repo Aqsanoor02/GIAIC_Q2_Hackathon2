@@ -1,1 +1,0 @@
-# GIAIC_Q2_Hackathon2
