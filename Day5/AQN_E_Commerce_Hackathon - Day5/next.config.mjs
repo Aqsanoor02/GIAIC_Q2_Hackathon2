@@ -1,13 +1,27 @@
+// // /** @type {import('next').NextConfig} */
+// // const nextConfig = {};
+
+// // export default nextConfig;
+
 // /** @type {import('next').NextConfig} */
-// const nextConfig = {};
+// const nextConfig ={
+//     images:{
+//         domains:["cdn.sanity.io"]
+//     }
+// };
 
 // export default nextConfig;
 
 /** @type {import('next').NextConfig} */
-const nextConfig ={
-    images:{
-        domains:["cdn.sanity.io"]
-    }
-};
-
-export default nextConfig;
+const nextConfig = {
+    reactStrictMode: true,
+    images: {
+      domains: ["cdn.sanity.io"],
+    },
+    experimental: {
+      appDir: true, 
+    },
+  };
+  
+  export default nextConfig;
+  
